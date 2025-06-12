@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sua Loja Clonada</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#ffe600; padding:10px; display:flex; align-items:center; }
+    header img { height:40px; }
+    header input { margin-left:10px; flex:1; padding:8px; }
+    nav { background:#f6f6f6; padding:5px; text-align:center; }
+    nav a { margin: 0 10px; color:#333; text-decoration:none; }
+    .banner { width:100%; height:200px; background:#ddd; display:flex; justify-content:center; align-items:center; color:#555; font-size:1.2em; }
+    section { padding:10px; }
+    .produtos { display:flex; overflow-x:auto; gap:10px; }
+    .produto { flex:0 0 150px; border:1px solid #ccc; padding:5px; text-align:center; }
+    .produto img { width:100%; height:100px; object-fit:cover; }
+    footer { background:#333; color:#fff; padding:10px; }
+    footer a { color:#ffe600; text-decoration:none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://via.placeholder.com/150x40?text=Logo" alt="Logo">
+  <input type="text" placeholder="Buscar produtos">
+</header>
+
+<nav>
+  <a href="#">Ofertas do Dia</a>
+  <a href="#">Mais Vendidos</a>
+  <a href="#">Categorias</a>
+</nav>
+
+<div class="banner">Banner Promocional Aqui (CTA)</div>
+
+<section id="ofertas">
+  <h2>Ofertas do Dia</h2>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/150" alt="Produto 1">
+      <p>Produto 1 <br><strong>R$99,90</strong></p>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/150" alt="Produto 2">
+      <p>Produto 2 <br><strong>R$49,90</strong></p>
+    </div>
+    <!-- Adicione mais produtos -->
+  </div>
+</section>
+
+<section id="mais-vendidos">
+  <h2>Mais Vendidos</h2>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/150" alt="Produto A">
+      <p>Produto A <br><strong>R$129,90</strong></p>
+    </div>
+    <!-- Replique conforme necessidade -->
+  </div>
+</section>
+
+<footer>
+  <h3>Sobre a nossa loja</h3>
+  <p>Somos uma loja inspirada nas maiores plataformas do Brasil, com agilidade, confiança e produtos selecionados.</p>
+  <p>Contato: <a href="mailto:contato@sualoja.com">contato@sualoja.com</a></p>
+</footer>
+
+</body>
+</html>
